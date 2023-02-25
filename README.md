@@ -2,16 +2,20 @@
 ## Link to Tableau Story: https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yes
 
 ## Overview:
-### As a Japanese-Filipino-American, I was curious to dive into a personal topic that I wanted to learn about: the state of Asian Hate Crimes. In the past few years, there has been more coverage on the increase of Asian Hate Crimes nationwide, and I decided to use data on hate crimes to answer some questions I have always had regarding Asian Hate Crimes:
+As a Japanese-Filipino-American, I was curious to delve into a personal topic that I wanted to learn more about: the state of Asian hate crimes in the United States. In the past few years, there has been increased media coverage on the rise of Asian hate crimes nationwide, and I decided to use data on hate crimes to answer some questions I have always had.
 
-- Did the introduction of COVID affect the # of Asian Hate Crimes in 2020?
-- What was the percentage increase in Asian Hate Crimes from 2019 to 2020?
+### The questions that I aimed to address through my data project are:
+
+- Did the introduction of COVID-19 affect the number of Asian hate crimes in 2020?
+- What was the percentage increase in Asian hate crimes from 2019 to 2020?
 - What is the rate of reporting for Asian hate crimes compared to all other crimes?
 - What is the geographic distribution of reported Asian hate crimes in 2021 across different regions and cities in the U.S.?
-    - Which state and city had the largest number of Asian hate crimes since COVID?
+- Which state and city had the largest number of Asian hate crimes since the start of the COVID-19 pandemic?
 - What is the nature of reported Asian hate crimes?
-- Are there any patterns or trends in the location of Asian hate crimes? 
+- Are there any patterns or trends in the location of Asian hate crimes?
 - Is there a correlation between population size/density and the number of Asian hate crimes that occur?
+
+Overall, this data project aims to provide insights and shed light on the recent state of Asian hate crimes in the United States.
 
 ## Data Gathering
 #### With these questions I had, I downloaded 3 datasets to help me answer these questions:
@@ -23,7 +27,9 @@
  - Provides data on US city land size to gain insight on the relationship between population density and Asian Hate Crime
 
 ## Data Cleaning + Data Manipulation
-Once I had downloaded my 3 datasets, I loaded them into DBeaver and used SQLite to utilize a combination of Data Definition Language (DDL) and Data Manipulation Language (DML) techniques to query my datasets to provide me with workable tables to upload into Tableau. During this provess, I also performed multiple JOIN operations in order to join my 3 datasets together. Here is an example of query I performed in order to get my datasets joined together to provide me insights on population density vs. # of Asian Hate Crimes:
+Once I downloaded my three datasets, I loaded them into DBeaver and utilized SQLite to query my datasets using a combination of Data Definition Language (DDL) and Data Manipulation Language (DML) techniques to create workable tables that I could upload into Tableau. During this process, I also performed multiple JOIN operations in order to combine my three datasets together.
+
+Here is an example of a query that I performed to join my datasets together and provide insights on the correlation between population density and the number of Asian hate crimes:
 
 ```
 ALTER TABLE uscitypopdensity ADD COLUMN city_state TEXT;
@@ -45,8 +51,7 @@ WHERE data_year >= 2019 AND bias_desc = "Anti-Asian" AND c.POPESTIMATE2020 != 0
 GROUP BY hc.incident_id, hc.city_state, hc.data_year, hc.offense_name, hc.incident_id, hc.bias_desc, c.city_state, c.POPESTIMATE2020, u."Land Area (Square Miles)";
 ```
 ## Data Visualizing
-Now that the queriues have been performed and exported in the form of an Excel file, it's time to load them into Tableau and begin data visualizing, my favorite part. After creating multiple dashboard and compiling them into a cohesive storyboard, here are the results to the questions I had regarding Asian Hate Crimes in 2019 to 2020:
-
+Now that the queries have been performed and exported as an Excel file, it's time to load them into Tableau and begin visualizing the data - my favorite part! After creating multiple dashboards and compiling them into a cohesive storyboard, here are the results to the questions I had regarding Asian hate crimes from 2019 to 2020:
 
 ### Did the introduction of COVID affect the # of Asian Hate Crimes in 2020?
 <p align="center">
@@ -103,5 +108,5 @@ The population of a city showed a decent relationship between the population siz
 On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being 0.33. 
 
 ## Conclusion
-Overall, the data shows that there seems to have been an overall increase in Asian Hate Crimes from 2019 to 2020. The introduction of COVID does seem to correlate to how many Asian Hate Crimes are occurring on a yearly basis. The number of Asian Hate Crime offenses have increased significantly as well as the number of Asian Hate Crimes in cities with larger population sizes. It is key to note that not all hate crimes are reported to law enforcement so there might be an underreporting of hate crime in the data, therefore should not be taken as a complete/definitive picture of hate crimes in the U.S.
+In conclusion, the data analysis indicates a concerning trend of rising Asian hate crimes in the United States during the COVID-19 pandemic. While the reasons behind this increase may vary, it is clear that more attention and efforts are needed to combat hate crimes against Asian Americans. It is also important to note that the data may not fully capture the extent of hate crimes due to underreporting. As a society, we must strive towards creating a safe and inclusive environment for all communities.
 
