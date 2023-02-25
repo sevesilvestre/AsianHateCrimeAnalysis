@@ -1,7 +1,7 @@
 # Asian Hate Crime Analysis
 ## Click [here](https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink) for the Tableau Story:
 <p align="center">
-  <a href="https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink"> <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/title2.png"/></a>
+  <a href="https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink"> <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/title3.png"/></a>
 </p>
 
 ## Overview:
