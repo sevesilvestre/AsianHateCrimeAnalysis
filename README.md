@@ -1,4 +1,6 @@
 # Asian Hate Crime Analysis
+## Link to Tableau Story: https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yes
+
 ## Overview:
 ### As a Japanese-Filipino-American, I was curious to dive into a personal topic that I wanted to learn about: the state of Asian Hate Crimes. In the past few years, there has been more coverage on the increase on Asian Hate Crimes nationwide and I decided to use data on hate crimes to answer some questions I have always had:
 
