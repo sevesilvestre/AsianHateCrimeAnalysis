@@ -1,7 +1,7 @@
 # Asian Hate Crime Analysis
-## Link to Tableau Story: https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yes
+## Click [here](https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink) for the Tableau Story:
 <p align="center">
-  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/title2.png">
+  <a href="https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink"> <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/title2.png"/></a>
 </p>
 
 ## Overview:
@@ -22,11 +22,11 @@ Overall, this data project aims to provide insights and shed light on the recent
 
 ## Data Gathering
 #### With these questions I had, I downloaded 3 datasets to help me answer these questions:
-1. Hate Crime Statistics Dataset (Soruce: FBI Crime Data Explorer)
+1. **Hate Crime Statistics Dataset** (Soruce: FBI Crime Data Explorer)
  - Provides data on all hate crimes from 1991-2023
-2. 2020 US Cities Population Dataset (Source: U.S. Census Bureau)
+2. **2020 US Cities Population Dataset** (Source: U.S. Census Bureau)
  - Provides data on US city population to gain insight on the relationship between population size and Asian Hate Crime
-3. US. Cities Population Density Dataset (Source: Kaggle)
+3. **US. Cities Population Density Dataset** (Source: Kaggle)
  - Provides data on US city land size to gain insight on the relationship between population density and Asian Hate Crime
 
 ## Data Cleaning + Data Manipulation
@@ -53,6 +53,8 @@ INNER JOIN uscitypopdensity u ON c.city_state = u.city_state
 WHERE data_year >= 2019 AND bias_desc = "Anti-Asian" AND c.POPESTIMATE2020 != 0
 GROUP BY hc.incident_id, hc.city_state, hc.data_year, hc.offense_name, hc.incident_id, hc.bias_desc, c.city_state, c.POPESTIMATE2020, u."Land Area (Square Miles)";
 ```
+The rest of SQL queries that I performed can be accessed [here](https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/SQL%20Queries/Asian%20Hate%20Crime%20SQL%20Queries.txt).
+
 ## Data Visualizing
 Now that the queries have been performed and exported as an Excel file, it's time to load them into Tableau and begin visualizing the data - my favorite part! After creating multiple dashboards and compiling them into a cohesive storyboard, here are the results to the questions I had regarding Asian hate crimes from 2019 to 2020:
 
@@ -61,54 +63,54 @@ Now that the queries have been performed and exported as an Excel file, it's tim
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/%23ofCrimes.png">
 </p>
 
-According to the data, there was an increase in Asian Hate Crimes by 144 from the years 2019 and 2020. Asian Hate Crimes were under 200 for the 4 years prior to COVID-19 and 2 years within COVID, the # of Asian Hate Crimes increased to over 300 per year. 
+According to the data, there was an increase in Asian Hate Crimes by **144** from the years 2019 and 2020. Asian Hate Crimes were under **200** for the 4 years prior to COVID-19 and 2 years within COVID, the # of Asian Hate Crimes increased to over **300** per year. 
 
 ### What was the percentage increase in Asian Hate Crimes from 2019 to 2020? What is the rate of reporting for Asian hate crimes compared to all other crimes?
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/%25ofCrimes.png">
 </p>
 
-Along the same note, there was a 76.6% increase in Asian Hate Crimes from 2019 to 2020 as well. Comparing the # of Asian Hate Crimes to all other Hate Crimes, the percentage of Asian Hate Crimes to the total number of hate crimes also increase from 2.39% in 2019 to 3.37% in 2020. 
+Along the same note, there was a **76.6%** increase in Asian Hate Crimes from 2019 to 2020 as well. Comparing the # of Asian Hate Crimes to all other Hate Crimes, the percentage of Asian Hate Crimes to the total number of hate crimes also increase from **2.39%** in 2019 to **3.37%** in 2020. 
 
 ### What is the geographic distribution of reported Asian hate crimes in 2021 across different regions and cities in the U.S.?
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/State.png">
 </p>
 
-California had the highest number of Asian Hate Crimes in 2020 with 90 hate crimes, increasing by 209% from Pre-COVID times. 
+California had the highest number of Asian Hate Crimes in 2020 with **90** hate crimes, increasing by **209%** from Pre-COVID times. 
 
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Cities.png" >
 </p>
 
-When looking at cities across the U.S., cities that had the highest increase in Asian Hate Crimes within the one year span include New York City with a 1,400% increase, Los Angeles with a 267% increase, and San Jose with a 225% increase. 
+When looking at cities across the U.S., cities that had the highest increase in Asian Hate Crimes within the one year span include New York City with a **1,400%** increase, Los Angeles with a **267%** increase, and San Jose with a **225%** increase. 
 
 ### What is the nature of reported Asian hate crimes?
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Offenses.png">
 </p>
 
-The most committed offense across the two years include "Intimidation" and "Simple Assault". "Intimidation" saw a 191% increase in 2020 and "Simple Assault" saw a 269% increase in the COVID Era. 
+The most committed offense across the two years include "Intimidation" and "Simple Assault". "Intimidation" saw a **191%** increase in 2020 and "Simple Assault" saw a **269%** increase in the COVID Era. 
 
 ### Are there any patterns or trends in the location of Asian hate crimes?
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Locations.png">
 </p>
 
-"Highways/Roads/Alleys/Streets" was the location that had the largest # of Asian Hate Crimes in 2019 and the story was the same in 2020. However, there was a 175% increase in Asian Hate Crimes that occurred at "Highways/Roads/Alleys/Streets". "Residence/Home" had the second largest # of Asian Hate Crime occurrances in 2019 and saw a 215% increase in 2020.
+"Highways/Roads/Alleys/Streets" was the location that had the largest # of Asian Hate Crimes in 2019 and the story was the same in 2020. However, there was a **175%** increase in Asian Hate Crimes that occurred at "Highways/Roads/Alleys/Streets". "Residence/Home" had the second largest # of Asian Hate Crime occurrances in 2019 and saw a **215%** increase in 2020.
 
 ### Is there a correlation between population size/density and the number of Asian hate crimes that occur?
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popsize.png">
 </p>
 
-The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of 0.62. 
+The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of **0.62**. 
 
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popdensity.png">
 </p>
 
-On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being 0.33. 
+On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being **0.33**. 
 
 ## Conclusion
 In conclusion, the data analysis indicates a concerning trend of rising Asian hate crimes in the United States during the COVID-19 pandemic. While the reasons behind this increase may vary, it is clear that more attention and efforts are needed to combat hate crimes against Asian Americans. It is also important to note that the data may not fully capture the extent of hate crimes due to underreporting. As a society, we must strive towards creating a safe and inclusive environment for all communities.
