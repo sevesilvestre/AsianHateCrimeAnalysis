@@ -67,3 +67,6 @@ The most committed offense across the two years include "Intimidation" and "Simp
 
 The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of 0.62. On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being 0.33. 
 
+## Conclusion
+Overall, the data shows that there seems to have been an overall increase in Asian Hate Crimes from 2019 to 2020. The introduction of COVID does seem to correlate to how many Asian Hate Crimes are occurring on a yearly basis. The number of Asian Hate Crime offenses have increased significantly as well as the number of Asian Hate Crimes in cities with larger population sizes.
+
