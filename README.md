@@ -2,7 +2,7 @@
 ## Link to Tableau Story: https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yes
 
 ## Overview:
-### As a Japanese-Filipino-American, I was curious to dive into a personal topic that I wanted to learn about: the state of Asian Hate Crimes. In the past few years, there has been more coverage on the increase on Asian Hate Crimes nationwide and I decided to use data on hate crimes to answer some questions I have always had:
+### As a Japanese-Filipino-American, I was curious to dive into a personal topic that I wanted to learn about: the state of Asian Hate Crimes. In the past few years, there has been more coverage on the increase of Asian Hate Crimes nationwide, and I decided to use data on hate crimes to answer some questions I have always had regarding Asian Hate Crimes:
 
 - Did the introduction of COVID affect the # of Asian Hate Crimes in 2020?
 - What was the percentage increase in Asian Hate Crimes from 2019 to 2020?
