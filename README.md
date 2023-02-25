@@ -1,5 +1,6 @@
-# Asian Hate Crime Analysis
-## Click [here](https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink) for the Tableau Story:
+<h1 align="center">Asian Hate Crime Analysis</h1>
+
+## Click [here](https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink) for the Tableau Story:</h2>
 <p align="center">
   <a href="https://public.tableau.com/app/profile/seve.silvestre/viz/AsianHateCrimeCaseStudy/AsianHateCrimeStory?publish=yesLink"> <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/title3.png"/></a>
 </p>
