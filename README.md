@@ -31,7 +31,7 @@ Overall, this data project aims to provide insights and shed light on the recent
  - Provides data on US city land size to gain insight on the relationship between population density and Asian Hate Crime
 
 ## Data Cleaning + Data Manipulation
-Once I downloaded my three datasets, I loaded them into DBeaver and utilized SQLite to query my datasets using a combination of Data Definition Language (DDL) and Data Manipulation Language (DML) techniques to create workable tables that I could upload into Tableau. During this process, I also performed multiple JOIN operations in order to combine my three datasets together.
+Once I downloaded my three datasets, I loaded them into DBeaver and utilized SQLite to query my datasets using a combination of Data Definition Language (DDL), Data Manipulation Language (DML), and Data Query Language (DQL) techniques to create workable tables that I could upload into Tableau. During this process, I also performed multiple JOIN operations in order to combine my three datasets together.
 
 Here is an example of a query that I performed to join my datasets together and provide insights on the correlation between population density and the number of Asian hate crimes:
 
