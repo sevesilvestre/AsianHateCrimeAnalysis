@@ -23,11 +23,11 @@ Overall, this data project aims to provide insights and shed light on the recent
 
 ## Data Gathering
 #### With these questions I had, I downloaded 3 datasets to help me answer these questions:
-1. **Hate Crime Statistics Dataset** (Soruce: FBI Crime Data Explorer)
+1. **[Hate Crime Statistics Dataset](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads%23datasets)** (Soruce: FBI Crime Data Explorer)
  - Provides data on all hate crimes from 1991-2023
-2. **2020 US Cities Population Dataset** (Source: U.S. Census Bureau)
+2. **[2020 US Cities Population Dataset](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html)** (Source: U.S. Census Bureau)
  - Provides data on US city population to gain insight on the relationship between population size and Asian Hate Crime
-3. **US. Cities Population Density Dataset** (Source: Kaggle)
+3. **[US. Cities Population Density Dataset](https://www.kaggle.com/datasets/mmcgurr/us-city-population-densities)** (Source: Kaggle)
  - Provides data on US city land size to gain insight on the relationship between population density and Asian Hate Crime
 
 ## Data Cleaning + Data Manipulation
