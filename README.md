@@ -8,6 +8,12 @@
 ## Overview:
 As a Japanese-Filipino-American, I was curious to delve into a personal topic that I wanted to learn more about: the state of Asian hate crimes in the United States. In the past few years, there has been increased media coverage on the rise of Asian hate crimes nationwide, and I decided to use data on hate crimes to answer some questions I have always had.
 
+## Key Findings:
+- Asian hate crimes increased by 76.6% from 2019 to 2020 in the United States
+- "Intimidation" and "Simple Assault" Offenses increased by 91% and 169% respectively from 2019 to 2020
+- New York City saw the highest increase in Asian hate crimes with a 1,300% increase from 2019 to 2020
+- Population Size proved to have a decently strong relationship to the number of Asian hate crimes while population density proved to have a weaker relationship
+
 ### The questions that I aimed to address through my data project are:
 
 - Did the introduction of COVID-19 affect the number of Asian hate crimes in 2020?
@@ -78,27 +84,27 @@ Along the same note, there was a **76.6%** increase in Asian Hate Crimes from 20
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/State.png">
 </p>
 
-California had the highest number of Asian Hate Crimes in 2020 with **90** hate crimes, increasing by **209%** from Pre-COVID times. 
+California had the highest number of Asian Hate Crimes in 2020 with **90** hate crimes, increasing by **109%** from Pre-COVID times. 
 
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Cities.png" >
 </p>
 
-When looking at cities across the U.S., cities that had the highest increase in Asian Hate Crimes within the one year span include New York City with a **1,400%** increase, Los Angeles with a **267%** increase, and San Jose with a **225%** increase. 
+When looking at cities across the U.S., cities that had the highest increase in Asian Hate Crimes within the one year span include New York City with a **1,300%** increase, Los Angeles with a **167%** increase, and San Jose with a **125%** increase. 
 
 ### What is the nature of reported Asian hate crimes?
 <p align="center">
-  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Offenses.png">
+  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/offense2.png">
 </p>
 
-The most committed offense across the two years include "Intimidation" and "Simple Assault". "Intimidation" saw a **191%** increase in 2020 and "Simple Assault" saw a **269%** increase in the COVID Era. 
+The most committed offense across the two years include "Intimidation" and "Simple Assault". "Intimidation" saw a **91%** increase in 2020 and "Simple Assault" saw a **169%** increase in the COVID Era. 
 
 ### Are there any patterns or trends in the location of Asian hate crimes?
 <p align="center">
-  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/Locations.png">
+  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/location2.png">
 </p>
 
-"Highways/Roads/Alleys/Streets" was the location that had the largest # of Asian Hate Crimes in 2019 and the story was the same in 2020. However, there was a **175%** increase in Asian Hate Crimes that occurred at "Highways/Roads/Alleys/Streets". "Residence/Home" had the second largest # of Asian Hate Crime occurrances in 2019 and saw a **215%** increase in 2020.
+"Highways/Roads/Alleys/Streets" was the location that had the largest # of Asian Hate Crimes in 2019 and the story was the same in 2020. However, there was a **75%** increase in Asian Hate Crimes that occurred at "Highways/Roads/Alleys/Streets". "Residence/Home" had the second largest # of Asian Hate Crime occurrances in 2019 and saw a **115%** increase in 2020.
 
 ### Is there a correlation between population size/density and the number of Asian hate crimes that occur?
 <p align="center">
@@ -114,5 +120,6 @@ The population of a city showed a decent relationship between the population siz
 On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being **0.33**. 
 
 ## Conclusion
-In conclusion, the data analysis indicates a concerning trend of rising Asian hate crimes in the United States during the COVID-19 pandemic. While the reasons behind this increase may vary, it is clear that more attention and efforts are needed to combat hate crimes against Asian Americans. It is also important to note that the data may not fully capture the extent of hate crimes due to underreporting since not all hate crimes are reported to law enforcement, and not all law enforcement agencies report hate crimes to the FBI, which collects and publishes national hate crime statistics. As a society, we must strive towards creating a safe and inclusive environment for all communities.
+In conclusion, the data analysis indicates a concerning trend of rising Asian hate crimes in the United States during the COVID-19 pandemic. There was a 76.6% increase in Asian hate crimes from 2019 to 2020 and the percentage of Asian hate crimes compared to all crimes increased from 2.39% to 3.37%. The number of offenses committed as an Asian hate crime increased as a whole as well, seeing offenses such as "Intimidation" and "Simple Assault" increase by 91% and 169%, respectively. Geographical data also showed that Asian hate crimes across the country increased with states like California increasing by 109% and cities like New York City increasing by 1,300%. This data analysis also concluded that over the 2 year span, the population of a city had a fairly strong relationship to the number of Asian hate crimes while population density had a weaker relationship.
 
+While the main reasons behind this increase may vary, it is clear that more attention and efforts are needed to combat hate crimes against Asian Americans. It is also important to note that the data may not fully capture the extent of hate crimes due to underreporting since not all hate crimes are reported to law enforcement, and not all law enforcement agencies report hate crimes to the FBI, which collects and publishes national hate crime statistics. As a society, we must strive towards creating a safe and inclusive environment for all communities.
