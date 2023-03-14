@@ -108,13 +108,13 @@ The most committed offense across the two years include "Intimidation" and "Simp
 
 ### Is there a correlation between population size/density and the number of Asian hate crimes that occur?
 <p align="center">
-  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popsize.png">
+  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popsize1.png">
 </p>
 
 The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of **0.62**. 
 
 <p align="center">
-  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popdensity.png">
+  <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popdensity1.png">
 </p>
 
 On the other hand, population density and the # of Asian Hate Crimes had a weaker relationship between each other with the R2 being **0.33**. 
