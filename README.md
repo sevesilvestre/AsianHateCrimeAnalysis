@@ -111,7 +111,7 @@ The most committed offense across the two years include "Intimidation" and "Simp
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popsize1.png">
 </p>
 
-The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of **0.62**. 
+The population of a city showed a decent relationship between the population size and the # of Asian Hate Crimes, possessing an R2 of **0.62**. The closer the R2 is to 1, the variables move together in the same direction. The closer R2 is to -1, the variables move in opposite directions. The closer R2 is to 0, the more independent both variables are to each other.
 
 <p align="center">
   <img src= "https://github.com/sevesilvestre/AsianHateCrimeAnalysis/blob/main/images/popdensity1.png">
